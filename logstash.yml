@@ -87,4 +87,4 @@ spec:
     targetPort: 5228
   selector:
     app: logstash
-  type: LoadBalancer
+  type: NodePort
